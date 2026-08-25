@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ace": {
+      "command": "dist/win-x64/Ace.Mcp.Server.exe",
+      "args": []
+    }
+  }
+}

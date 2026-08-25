@@ -1,0 +1,9 @@
+{
+  "name": "ace",
+  "displayName": "ACE - Agent Context Engine",
+  "version": "0.1.0",
+  "description": "Change impact, risk, affected tests, regression scope and repository context for code changes. All intelligence lives in ACE Core and is exposed through the ACE MCP server; this plugin is a thin Qoder adapter.",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": "./.mcp.json"
+}

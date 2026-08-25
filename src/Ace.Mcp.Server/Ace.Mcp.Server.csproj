@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ace.Mcp.Server</RootNamespace>
+    <Description>ACE MCP server: Model Context Protocol adapter exposing ACE Core intelligence to AI coding agents (stdio transport).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ace.Core\Ace.Core.csproj" />
+  </ItemGroup>
+
+</Project>

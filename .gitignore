@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+
+# Published / packaged artifacts
+dist/
+
+# ACE per-repository index data
+.ace/
+
+# IDE / tooling
+.vs/
+.vscode/
+.idea/
+*.user
+
+# OS clutter
+Thumbs.db
+.DS_Store
+
+
+specs/
+*.pdf
